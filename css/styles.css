@@ -1,0 +1,164 @@
+/* monserrat 400 500 600 700 800 */
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+.header {
+  background-color: rgb(206, 206, 206);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: aqua;
+}
+/* end of HEADER */
+
+/* HERO section */
+
+.hero {
+  background-color: #b8b8b8;
+}
+.suptitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: #ffffff;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+  background-color: #4985ff;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: transparent;
+  border-color: #4985ff;
+  color: #4985ff;
+}
+/* end of HERO section */
+
+/* section WHAT WE DO */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.51;
+  text-align: center;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+  color: #999999;
+}
+
+.descr-list-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+}
+
+.descr-list-item-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #999999;
+}
+
+.podrobnee {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration-line: underline;
+  color: #4985ff;
+}
+
+.our-works-list-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+  color: #999999;
+}
+
+.disclaimer {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.62;
+  text-align: center;
+  color: #999999;
+}
+
+.our-projects,
+.standards,
+.footer {
+  background-color: #f6f6f8;
+}
+
+.standards-list-number {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.47;
+  color: #000000;
+}
+
+/* FOOTER */
+
+.footer-column-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+}
+
+.footer-column-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #999999;
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.62;
+  text-align: center;
+  color: #999999;
+}
